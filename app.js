@@ -22,7 +22,7 @@ app.get('/data', async (req, res) => {
         const documents = await collection.find({}).toArray();
         
         const locations = documents.map(doc => {
-            return { lat: doc.latitude, lng: doc.longitude, label: doc.label };
+            return { lat: doc.latitude, lng: doc.longitude, RegionName: doc.RegionName, Recent_Month_tx_rental: doc.Recent_Month_tx_rental, Recent_Month_home_values: doc.Recent_Month_home_values, cap_rate: doc.cap_rate, label: doc.label };
         });
 
         res.json(locations);
