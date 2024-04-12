@@ -64,6 +64,21 @@ Ensure you have the following installed on your system:
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have suggestions for improvements or have identified bugs.
 
+## Ethical Considerations
+
+### Data Privacy and Consent
+
+- **Data Source Transparency**: The data for this project is sourced from Zillow. It was made publicly available and collected in adherence to Zillow's data usage policies. We have ensured that any required permissions or licenses for the use of this data have been obtained.
+
+- **Personal Information**: We confirm that the datasets used do not contain personally identifiable information (PII) or sensitive personal information (SPI). Steps have been taken to anonymize any data prior to its analysis to protect individual privacy.
+
+### Accuracy and Representation
+
+- **Data Accuracy**: We acknowledge that no dataset is without its limitations. Efforts have been made to ensure the accuracy of the data through rigorous cleaning and validation processes. These steps are crucial to minimize errors and biases that could affect the analysis.
+
+- **Representation**: This project is committed to fair and unbiased analysis. We have taken measures to ensure that our analysis does not misrepresent any communities or demographic groups. The process includes reviewing the datasets for potential biases and adjusting our analysis to account for these biases.
+
+
 ## Acknowledgments
 
 - Data provided by [Zillow].
